@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.transform
+{
+    height:300px;
+    width:200px;
+    background-color: rgb(50, 50, 50);
+    transition: transform 2s ease;
+    
+}
+.transform:hover
+{
+    transform: translate(50%,50%);
+    
+}
+
+.anim
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: seagreen;
+    animation: anima 4s ease-in  both ;
+}
+
+@keyframes anima {
+    0%
+    {
+        left: 0px;
+        top: 0px;
+    }
+    25%
+    {
+        left: 200px;
+        top: 0px;
+    }
+    50%
+    {
+        left: 200px;
+        top: 200px;
+    }
+    75%
+    {
+        left: 0px;
+        top: 200px;
+    }
+    100%
+    {
+        left: 0px;
+        top: 200px;
+    }
+}

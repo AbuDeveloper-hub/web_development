@@ -1,0 +1,21 @@
+table{
+    width: 80%;
+    height: 50%;
+}
+table,th,td{
+    border: 1px solid black;
+}
+th,td{
+    background-color: cadetblue;
+    padding: 10px;
+}
+iframe
+{
+    width: 50%;
+    height: 50%;
+}
+.frame2{
+    margin-left: 80%;
+    height: 400px;
+    width: 200px;
+}

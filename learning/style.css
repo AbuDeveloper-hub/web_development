@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+::selection
+{
+    background-color: hotpink;
+}
+/* 
+body
+{
+    background-image: url(bird-gc6a34e44a_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} */
+table,tr,th{
+
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.clearfix
+{
+    margin: 300px;
+    border: 1px solid black;
+    overflow: auto;
+}
+.clearfix > img{
+    height: 200px;
+    width: 300px;
+    float: right;
+   
+}
+.tabel
+{
+    background-image: url(https://c.tenor.com/87KsJFNCamcAAAAM/wonders-of-nture-nature.gif),url(https://c.tenor.com/rI2ecbtNyHoAAAAC/hello-hi.gif);
+    background-position: left top,right bottom;
+    background-repeat: repeat,no-repeat;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+.hero-image
+{
+    background:url(bird-gc6a34e44a_1920.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    margin: 50px;
+   
+}
+.hero-image:hover
+{
+    box-shadow: 10px 10px 10px 0 black;
+    transition: .5s all linear;
+}
+.hero-text
+{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

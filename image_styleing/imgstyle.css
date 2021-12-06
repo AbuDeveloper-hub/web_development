@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(50, 50, 50);
+}
+.image-container
+{
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+
+    margin-top: 25px;
+}
+img
+{
+    
+}
+.text
+{
+    text-align: center;
+    padding: 20px;
+}

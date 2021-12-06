@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form
+{
+    background-color: grey;
+    padding: 50px;
+}
+label
+{
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+ol{
+    margin-left: 200px;
+}
+
+th{
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+}
+.menu
+{
+    height: 70%;
+}
+.left
+{
+    background-color: darkmagenta;
+    float: left;
+    width: 70%;
+    padding: 50px;
+}
+.right
+{
+    background-color: darkslateblue;
+    float: left;
+    width: 30%;
+    padding: 50px;
+}
+menu::after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+
+
+
+
+

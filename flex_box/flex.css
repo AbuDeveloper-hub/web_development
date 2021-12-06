@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.flex_container
+{
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: powderblue;
+    height: 200px;
+    align-content: flex-start;
+}
+.flex_container > div
+{
+    padding: 30px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin: 2px;
+    font-size: 15px;
+
+}
+.flex_container > div:nth-child(2)
+{
+    flex-shrink: 10px;
+}
+.flex_container > div:nth-child(4)
+{
+    flex: 0 0 200px;
+}
