@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(src/download.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+}
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    background-color: yellowgreen;
+    color: whitesmoke;
+    padding: 10px;
+    float: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main
+{
+    background-color: #40e0d0;
+    padding: 10px;
+    font-family: cursive;
+    color: navy;
+    height: 100%;
+}
+#footer
+{
+    background-color: navy;
+    color: oldlace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
